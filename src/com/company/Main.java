@@ -115,21 +115,4 @@ class ZP{
         this.fit_t = this.fit_this(j, zp_kolo);
         return this.fit_t;
     }
-//    int[] wspolne_z_innym_podzbiorem(Punkt[] inny_zp){
-//        int len_zp;
-//        Punkt[] podzbior;
-//        if (inny_zp.length >= this.fit_t.length){
-//            len_zp = inny_zp.length;
-//        }else{
-//            len_zp = this.fit_t.length;
-//        }
-//        podzbior = new Punkt[len_zp];
-//        int j = 0;
-//        for (int i = 0; i<len_zp; i++){
-//            if inny_zp[i] == this.fit_t[i]{
-//                podzbior[j++] =
-//            }
-//        }
-//        return podzbior;
-//    }
 }
